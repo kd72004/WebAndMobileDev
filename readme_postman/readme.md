@@ -74,15 +74,16 @@ Splitwise is a full-stack expense sharing application that allows users to manag
 - Node.js and npm installed
 - React installed
 
-### Backend Setup
+### Setup
+
 ```bash
+# Backend Setup
 cd backend
 npm install
 # Configure your database in backend/config/db.js
 npm start
 
-Frontend Setup
-
-cd frontend
+# Frontend Setup (in a new terminal or after backend is running)
+cd ../frontend
 npm install
 npm run dev
