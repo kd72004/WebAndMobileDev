@@ -60,8 +60,9 @@ The core functionality of Splitwise relies on two key algorithms:
 ## 📐 Class Diagram
 
 This diagram outlines the primary models, their attributes, and relationships in the application architecture.
-![project images](D:\splitwise2__\splitwise2__\screensorts\1.png)
-D:\splitwise2__\splitwise2__\screensorts\1.png
+![class diagram](https://github.com/kd72004/WebAndMobileDev/blob/devangi/screensorts/1.png?raw=true)
+![class diagram](https://github.com/kd72004/WebAndMobileDev/blob/devangi/screensorts/7.png?raw=true)
+
 ****
 
 ---
