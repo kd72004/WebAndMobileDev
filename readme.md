@@ -101,12 +101,12 @@ This diagram outlines the primary models, their attributes, and relationships in
 
 ## 🖼️ Screenshots
 
-![project images](\screensorts\2.png)
-![project images](D:\splitwise2__\splitwise2__\screensorts\3.png)
-![project images](D:\splitwise2__\splitwise2__\screensorts\4.png)
-![project images](D:\splitwise2__\splitwise2__\screensorts\5.png)
-![project images](D:\splitwise2__\splitwise2__\screensorts\6.png)
-![project images](D:\splitwise2__\splitwise2__\screensorts\7.png)
+![project images](https://github.com/kd72004/WebAndMobileDev/blob/devangi/screensorts/2.png?raw=true)
+![project images](https://github.com/kd72004/WebAndMobileDev/blob/devangi/screensorts/3.png?raw=true)
+![project images](https://github.com/kd72004/WebAndMobileDev/blob/devangi/screensorts/4.png?raw=true)
+![project images](https://github.com/kd72004/WebAndMobileDev/blob/devangi/screensorts/5.png?raw=true)
+![project images](https://github.com/kd72004/WebAndMobileDev/blob/devangi/screensorts/6.png?raw=true)
+
 ## 🔗 Links
 
 | Category | Link |
