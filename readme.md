@@ -100,7 +100,7 @@ D:\splitwise2__\splitwise2__\screensorts\1.png
 
 ## 🖼️ Screenshots
 
-![project images](D:\splitwise2__\splitwise2__\screensorts\2.png)
+![project images](\screensorts\2.png)
 ![project images](D:\splitwise2__\splitwise2__\screensorts\3.png)
 ![project images](D:\splitwise2__\splitwise2__\screensorts\4.png)
 ![project images](D:\splitwise2__\splitwise2__\screensorts\5.png)
