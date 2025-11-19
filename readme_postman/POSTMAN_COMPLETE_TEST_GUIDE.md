@@ -615,7 +615,4 @@ Your tests are successful if:
 - ✅ OpenAI analysis returns personalized insights
 - ✅ Error cases return proper error messages
 
-**Total Time: ~20 minutes** ⏱️
-
-Good luck! 🚀
 
