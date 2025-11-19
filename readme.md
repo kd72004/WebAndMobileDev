@@ -1,89 +1,120 @@
-# Splitwise - Smart Expense Splitting App
+# Splitwise - Smart Expense Splitting App 💰
 
-Splitwise is a full-stack expense sharing application that allows users to manage group expenses, track balances, and settle up efficiently. It features a modern frontend and a robust backend with advanced algorithms, providing a seamless experience for splitting expenses among friends and groups.
+Splitwise is a full-stack MERN (MongoDB, Express.js, React, Node.js) application designed for seamless group expense management, balance tracking, and efficient debt settlement. It features a modern frontend and a robust backend with advanced algorithms to ensure optimal performance and minimal transactions.
+
+## ✨ Features
+
+* **Group Expense Management:** Create, manage, and track shared expenses within groups.
+* **Optimal Settlement Algorithm:** Utilizes a **heap-based algorithm** to calculate the minimum number of transactions required to settle debts among group members.
+* **Degree of Connection:** Implements a **Breadth-First Search (BFS)** algorithm to find the connection level between users (friends of friends).
+* **Flexible Split Types:** Split expenses equally or customize contributions and shares.
+* **Secure Authentication:** User registration and login using **JWT** and secure **bcrypt** password hashing.
+* **Responsive UI:** Modern, mobile-friendly interface built with React and Tailwind CSS.
+* **AI Expense Advisor:** Provides smart, personalized financial insights and a helpful tip using a third-party API.
 
 ---
 
-## Features
+## 🛠️ Tech Stack
 
-- **Group Expense Management:** Create groups, add members, and track shared expenses.  
-- **Optimal Settlement Algorithm:** Uses a heap-based algorithm to minimize the number of transactions required to settle debts among group members.  
-- **Degree of Connection:** Find the degree of connection between users (friends of friends) using BFS.  
-- **User Authentication:** Secure login and signup functionality.  
-- **Responsive UI:** Modern, user-friendly interface for desktop and mobile.
+| Component | Technologies Used |
+| :--- | :--- |
+| **Frontend** | React, Tailwind CSS |
+| **Backend** | Node.js, Express.js |
+| **Database** | MongoDB |
+| **Authentication** | JWT, bcrypt |
+| **Third-party API** | `http://api.adviceslip.com/advice` |
 
 ---
 
-## Main Functionalities
+## 💡 Algorithms Used
+
+The core functionality of Splitwise relies on two key algorithms:
+
+### 1. Optimal Settlement Algorithm (Heap-based)
+* **Purpose:** To minimize the total number of transactions required to settle all debts in a group.
+* **Mechanism:** Uses a heap data structure to efficiently pair the members who owe the most with the members who are owed the most.
+
+### 2. Degree of Connection (BFS)
+* **Purpose:** To visualize social connections and shared memberships among users.
+* **Mechanism:** Implements the Breadth-First Search algorithm to determine the shortest "friend-of-a-friend" path between any two users in the network.
+
+---
+
+## 🚀 Main Functionalities
 
 ### 1. User Management
-- **Registration & Authentication:** Users can sign up, log in, and manage profiles securely.  
-- **Profile Management:** Users can update personal info like name, email, and password.
+* **Registration & Authentication:** Secure sign-up and log-in.
+* **Profile Management:** Update personal information, email, and password.
 
 ### 2. Group Management
-- **Create & Manage Groups:** Users can create expense groups, assign names and descriptions, and manage members.  
-- **Add/Remove Members:** Admins can add or remove members for accurate expense tracking.
+* **Create & Manage Groups:** Set up expense groups with names, descriptions, and member lists.
 
 ### 3. Expense Management
-- **Add Expenses:** Users can add expenses within groups specifying multiple payers.  
-- **Flexible Split Types:** Expenses can be split equally or customized by contribution.  
-- **Expense History:** Detailed history of all group expenses including date, split type, and payer info.
+* **Add Expenses:** Specify multiple payers and amounts owed.
 
 ### 4. Settlement Management
-- **Optimal Settlements:** Uses a heap-based algorithm to calculate minimum transactions required to settle debts.  
-- **Track Settlements:** View pending and completed settlements within a group.
-
-### 5. Social & Connection Features
-- **Degree of Connection:** BFS algorithm to show how closely users are connected.  
-- **Mutual Friends & Shared Groups:** Visualize relationships and shared memberships.
-
-### 6. Dashboard & Analytics
-- **Visual Overview:** Displays total expenses, member counts, and summaries per group.  
-- **Expense Summaries:** Quick insight into each member’s spending and owed amounts.
-
-### 7. Security & Performance
-- **JWT Authentication:** Secure API access.  
-- **Password Hashing:** Uses bcrypt for secure password storage.  
-- **Optimized Performance:** Supports large groups and concurrent users efficiently.
-
-### 8. Responsive Frontend
-- Mobile-friendly UI using React and Tailwind CSS.  
-- Smooth navigation between groups, expenses, and settlements.
+* **Optimal Settlements:** Calculation of minimum required transactions.
 
 ---
 
-## Algorithms Used
+## 📐 Class Diagram
 
-1. **Split Algorithm (Heap-based Settlement):** Optimizes the settlement process to minimize the number of transactions in a group.  
-2. **Degree of Connection (BFS):** Determines user connections (friends of friends) across the network.
-
----
-
-## Tech Stack
-
-- **Frontend:** React, Tailwind CSS  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB  
-- **Third-party API:** [api.adviceslip.com/advice](https://api.adviceslip.com/advice)
+This diagram outlines the primary models, their attributes, and relationships in the application architecture.
+![project images](D:\splitwise2__\splitwise2__\1.png)
+****
 
 ---
 
-## Getting Started
+## 💻 Getting Started
 
 ### Prerequisites
-- Node.js and npm installed
-- React installed
+* Node.js and npm installed
+* A running MongoDB instance (local or cloud)
 
-### Setup
+### Setup Instructions
 
-```bash
-# Backend Setup
-cd backend
-npm install
-# Configure your database in backend/config/db.js
-npm start
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/kd72004/WebAndMobileDev.git](https://github.com/kd72004/WebAndMobileDev.git)
+    cd WebAndMobileDev
+    ```
 
-# Frontend Setup (in a new terminal or after backend is running)
-cd ../frontend
-npm install
-npm run dev
+2.  **Backend Setup**
+    ```bash
+    cd backend
+    npm install
+    # Configure your MongoDB connection string in a .env file or configuration file.
+    npm start
+    ```
+
+3.  **Frontend Setup**
+    *In a new terminal:*
+    ```bash
+    cd ../frontend
+    npm install
+    npm run dev
+    ```
+
+---
+
+## 🖼️ Screenshots
+
+![project images](D:\splitwise2__\splitwise2__\2.png)
+![project images](D:\splitwise2__\splitwise2__\3.png)
+![project images](D:\splitwise2__\splitwise2__\4.png)
+![project images](D:\splitwise2__\splitwise2__\5.png)
+![project images](D:\splitwise2__\splitwise2__\6.png)
+![project images](D:\splitwise2__\splitwise2__\7.png)
+## 🔗 Links
+
+| Category | Link |
+| :--- | :--- |
+| **GitHub Repository** | `https://github.com/kd72004/WebAndMobileDev` |
+| **Live Deployment** | `https://split-wise-sepia.vercel.app` |
+
+---
+
+## 🤝 Prepared By
+
+* Devangi Pansuriya - 202412057
+* Kalyani Dave - 202412017
