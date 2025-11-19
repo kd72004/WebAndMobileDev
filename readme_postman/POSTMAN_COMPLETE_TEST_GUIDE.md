@@ -1,4 +1,4 @@
-# 🚀 Complete Postman Test Guide - Ready to Use in 20 Minutes
+# 🚀 Complete Postman Test Documentation
 
 ## ⚡ Quick Setup (Do This First!)
 
