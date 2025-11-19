@@ -26,38 +26,11 @@ Splitwise is a full-stack MERN (MongoDB, Express.js, React, Node.js) application
 
 ---
 
-📂 Repository Structure
-
-
+## 📂 Repository Structure
 
 The project follows a standard MERN stack architecture with separate directories for the Frontend and Backend, where the Backend adheres to the **Model-View-Controller (MVC)** design pattern.
 
-Splitwise/
-
-├── backend/                  # Node.js/Express Server (MVC Pattern)
-│   ├── config/               # Database connection and configuration
-│   ├── controllers/          # Business logic and request handling
-│   ├── models/               # MongoDB Schemas (Mongoose models for data structure)
-│   ├── routes/               # Defines API endpoints and links them to controllers
-│   ├── algorithms/           # Custom algorithms (Settlement, BFS Connection)
-│   ├── middleware/           # JWT authentication and security checks
-│   ├── package.json          # Backend dependencies
-│   └── server.js             # Server entry point
-├── frontend/                 # React Application (Client Side)
-│   ├── public/               # Static assets
-│   ├── src/
-│   │   ├── components/       # Reusable UI elements
-│   │   ├── pages/            # Main application views (Dashboard, Groups, etc.)
-│   │   ├── services/         # Logic for making API calls
-│   │   ├── context/          # Global state management
-│   │   ├── styles/           # Tailwind CSS and custom styling
-│   │   └── App.jsx           # Application entry and router setup
-│   ├── package.json          # Frontend dependencies
-│   └── vite.config.js        # Build configuration
-├── .gitignore                # Specifies files/folders to be ignored by Git
-└── README.md                 # Project documentation (this file)
-
-
+Splitwise/ ├── backend/ # Node.js/Express Server (MVC Pattern) │ ├── config/ # Database connection and configuration │ ├── controllers/ # Business logic and request handling │ ├── models/ # MongoDB Schemas (Mongoose models for data structure) │ ├── routes/ # Defines API endpoints and links them to controllers │ ├── algorithms/ # Custom algorithms (Settlement, BFS Connection) │ ├── middleware/ # JWT authentication and security checks │ ├── package.json # Backend dependencies │ └── server.js # Server entry point ├── frontend/ # React Application (Client Side) │ ├── public/ # Static assets │ ├── src/ │ │ ├── components/ # Reusable UI elements │ │ ├── pages/ # Main application views (Dashboard, Groups, etc.) │ │ ├── services/ # Logic for making API calls │ │ ├── context/ # Global state management │ │ ├── styles/ # Tailwind CSS and custom styling │ │ └── App.jsx # Application entry and router setup │ ├── package.json # Frontend dependencies │ └── vite.config.js # Build configuration ├── .gitignore # Specifies files/folders to be ignored by Git └── README.md # Project documentation
 
 
 
